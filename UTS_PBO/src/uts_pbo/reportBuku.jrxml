@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="fee34ecd-146a-4b23-9562-862d07da2e84">
+	<property name="ireport.zoom" value="1.4641000000000044"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="226"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT * FROM buku]]>
+	</queryString>
+	<field name="isbn" class="java.lang.String"/>
+	<field name="judul_buku" class="java.lang.String"/>
+	<field name="tahun_terbit" class="java.lang.String"/>
+	<field name="penerbit" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="173" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="138" forecolor="#FFFFFF" backcolor="#FF6666" uuid="03c22016-39ba-4ef5-87e9-354a93ce05dc"/>
+			</rectangle>
+			<staticText>
+				<reportElement mode="Transparent" x="14" y="0" width="555" height="124" forecolor="#FFFFFF" backcolor="#006633" uuid="b84c0c6e-97f5-4393-a9f5-506108f82ce6"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Sylfaen" size="28" isBold="true" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[SELAMAT DATANG
+DI DATA BUKU
+PERPUSTAKAAN JAYA ABADI]]></text>
+			</staticText>
+			<image>
+				<reportElement x="419" y="5" width="216" height="127" uuid="2aceb41f-a189-4ed1-b3fe-3820fec9d2df"/>
+				<imageExpression><![CDATA["C:\\Users\\HP\\Downloads\\gambar_buku__7_-removebg-preview.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="58" splitType="Stretch">
+			<rectangle>
+				<reportElement x="0" y="0" width="555" height="46" forecolor="#FFFFFF" backcolor="#FF6666" uuid="03ecd46d-107e-4a2c-a55b-1e2a75990f3e"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="-12" y="7" width="555" height="33" forecolor="#FFFFFF" uuid="c3f3bc90-7dfd-4c57-951a-e93ade84cb78"/>
+				<textElement textAlignment="Right">
+					<font fontName="Sylfaen" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DATA BUKU PERPUSTAKAAN JAYA ABADI]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="60" splitType="Stretch">
+			<staticText>
+				<reportElement x="436" y="19" width="84" height="30" forecolor="#FF6666" uuid="f62da375-80bb-4d28-b458-1c29c0b14947">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="47091bc6-54e4-4fc3-9c53-7995e34d3d19"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="Sylfaen" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Penerbit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="317" y="19" width="99" height="30" forecolor="#FF6666" uuid="f9fb4e44-75ff-4633-b96f-a7c1321502fc">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="47091bc6-54e4-4fc3-9c53-7995e34d3d19"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="Sylfaen" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tahun Terbit]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="8" y="19" width="112" height="30" forecolor="#FF6666" uuid="818315aa-e7ae-40e1-84bf-5d3fae4d0f8d">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="47091bc6-54e4-4fc3-9c53-7995e34d3d19"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="Sylfaen" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ISBN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="142" y="19" width="112" height="30" forecolor="#FF6666" uuid="52d35686-c988-4c3f-9846-b1ca9368b045">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="47091bc6-54e4-4fc3-9c53-7995e34d3d19"/>
+				</reportElement>
+				<textElement textAlignment="Justified">
+					<font fontName="Sylfaen" size="15" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Judul Buku]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="53" width="555" height="1" forecolor="#FF6666" uuid="4f6bcbec-2205-4a2e-a4ab-da08791148d6"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="51" splitType="Stretch">
+			<textField>
+				<reportElement x="436" y="5" width="107" height="30" uuid="a63ae463-573e-435f-a1de-649498427900">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="47091bc6-54e4-4fc3-9c53-7995e34d3d19"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Sylfaen" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{penerbit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="317" y="5" width="99" height="30" uuid="507afeac-b743-4f51-917d-adc4e5b80a06">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="47091bc6-54e4-4fc3-9c53-7995e34d3d19"/>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Sylfaen" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{tahun_terbit}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="8" y="5" width="112" height="30" uuid="0e42f7f1-e056-4efe-a8df-272f7bc2a30a">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="dd426237-0004-441f-9852-2b42612e40fe"/>
+				</reportElement>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Sylfaen" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{isbn}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="46" width="555" height="1" forecolor="#FF6666" uuid="d0587409-eafa-4b2e-8015-941274aea206"/>
+			</line>
+			<textField>
+				<reportElement x="142" y="5" width="112" height="30" uuid="7bca1df3-0a66-4872-a091-71b73edb7474">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="47091bc6-54e4-4fc3-9c53-7995e34d3d19"/>
+				</reportElement>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Sylfaen" size="11"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{judul_buku}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
