@@ -32,15 +32,21 @@ Menggunakan Apache Netbeans IDE 15
 11. Membuat class [Antropoda](https://github.com/WilisArum02/Pemrograman-Berbasis-Object/blob/main/Tugas2/src/tugas2/Antropoda.java) yang extends ke class [Invertebrata](https://github.com/WilisArum02/Pemrograman-Berbasis-Object/blob/main/Tugas2/src/tugas2/Invertebrata.java) dengan constructor jenisOrdo, sistemIndra, alatPernapasan2
 12.	Membuat get dari jenisOrdo, sistemIndra, alatPernapasan
 13.	Import dari kelas kelas yang sudah di buat karena akan membuat kelas main untuk di Run pada package yang berbeda
+    
     import tugas2.Vertebrata;
+   	
    	import tugas2.Mamalia;
+   	
    	import tugas2.Invertebrata;
+   	
     import tugas2.Antropoda;
+   	
     import tugas2.Hewan;
-14. Mengeluarkan set dan get yang sudah di constructor
+   	
+15. Mengeluarkan set dan get yang sudah di constructor
 
     <img width="443" alt="tugas2 3" src="https://github.com/WilisArum02/Pemrograman-Berbasis-Object/assets/148854173/c7228aeb-433e-46ee-ab5e-3bcee5a88b22">
 
-15. Run pada main class [Utama](https://github.com/WilisArum02/Pemrograman-Berbasis-Object/blob/main/Tugas2/src/Run/Utama.java)
+16. Run pada main class [Utama](https://github.com/WilisArum02/Pemrograman-Berbasis-Object/blob/main/Tugas2/src/Run/Utama.java)
 
     
