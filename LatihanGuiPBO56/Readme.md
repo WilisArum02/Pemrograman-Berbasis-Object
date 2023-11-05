@@ -88,9 +88,9 @@ Jasper Report adalah sebuah Tools Open Source Java Reporting untuk membuat repor
 
 ## Langkah Pengerjaan (Tugas Pertemuan 6)
 1.	Dari gui yang kita buat tambahkan button cetak untuk mencetak data(report)
-2.	Pada sourchnya tambahkan code dibawah
+2.	Pada sourcenya tambahkan code dibawah
   
-    try {
+        try {
   	
             Connection conn = DriverManager.getConnection("jdbc:postgresql://localhost:5432/Dosen", "postgres", "123");
 
