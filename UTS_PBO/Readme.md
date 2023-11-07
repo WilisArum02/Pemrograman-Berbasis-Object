@@ -1,7 +1,7 @@
 # Persistence
 Persistence coding adalah istilah yang digunakan untuk menggambarkan cara data disimpan dan diambil dari database dalam aplikasi. Dalam pemrograman, persistence mengacu pada kemampuan aplikasi untuk menyimpan data ke dalam database dan mengambilnya kembali saat diperlukan. Dalam Java, Java Persistence API (JPA) adalah spesifikasi yang digunakan untuk mengimplementasikan persistence coding. JPA memungkinkan pengembang untuk menggunakan objek Java untuk memanipulasi data dalam database relasional
 
-## Code Menggunakan Persistence (Tugas Pertemuan 9)
+## Code Menggunakan Persistence
 Pada code terlampir menggunakan database buku dimana [guibuku](https://github.com/WilisArum02/Pemrograman-Berbasis-Object/blob/main/UTS_PBO/src/uts_pbo/guibuku.java) sebagai mainnya.
 
 Persistence pada button simpan
@@ -80,7 +80,7 @@ Persistence pada buttom cetak
 
 
 
-## Menambahkan Upload File dari Device CSV (Tugas Pertemuan 10)
+## Menambahkan Upload File dari Device CSV
 1.	Menambahkan button upload file yang dapat langsung meng-insert data dari file yang dipilih dari computer pengguna
 2.	Pada source codenya menggunakan CSV, JFileChooser dan persistence 
 
