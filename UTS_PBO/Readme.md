@@ -80,7 +80,7 @@ Persistence pada buttom cetak
 
 
 
-## Menambahkan Upload File dari Device (Tugas Pertemuan 10)
+## Menambahkan Upload File dari Device CSV (Tugas Pertemuan 10)
 1.	Menambahkan button upload file yang dapat langsung meng-insert data dari file yang dipilih dari computer pengguna
 2.	Pada source codenya menggunakan CSV, JFileChooser dan persistence 
 
